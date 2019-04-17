@@ -1,13 +1,7 @@
 node default {
    
    file { '/root/README':
-      ensure => "present",
+      ensure => file,
       content => "HELLOOSDFSDFASDFSADF",
-   
    }
-   
-  class { 'java':
-  }
- 
- 
 }
