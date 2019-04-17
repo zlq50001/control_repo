@@ -1,4 +1,4 @@
-node puppetagent {
+node default {
    
    file { '/root/README':
       ensure => file,
