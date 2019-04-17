@@ -2,4 +2,7 @@ node default {
    
   class { 'java':
   }
+ 
+ 
+}
 
