@@ -4,4 +4,7 @@ node default {
       ensure => file,
       content => "HELLOOSDFSDFASDFSADF",
    }
+   
+     class {'java':
+     }
 }
